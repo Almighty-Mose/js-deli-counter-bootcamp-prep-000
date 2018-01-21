@@ -23,5 +23,8 @@ function currentLine(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  for (i = 0, i < katzDeliLine.length, i++)
+  for (i = 0; i < katzDeliLine.length; i++) {
+    var newArray = []
+    
+  }
 }
