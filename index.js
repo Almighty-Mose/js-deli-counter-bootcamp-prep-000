@@ -2,5 +2,5 @@ var katzDeliLine = []
 
 function takeANumber(katzDeliLine, name) {
   katzDeliLine.shift(name)
-  return `Welcome, ${name}. You are ${katzDeliLine
+  return `Welcome, ${name}. You are ${katzDeliLine[katzDeliLine.length]} in line.`
 }
